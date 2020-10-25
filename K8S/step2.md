@@ -1,15 +1,14 @@
 # Deploy the API
 
-```
-kubectl run colisnc --image=rastadidi/colisnc-api:latest --replicas=1
-```
+Startup the API with a single replica:
+
+`kubectl run colisnc --image=rastadidi/colisnc-api:latest --replicas=1`{{execute}}
+
+Then take a look at the newly deployed application:
+
+`kubectl get deployments`{{execute}}
 
 
-```
-kubectl get deployments
-```
+Then describe it:
 
-
-```
-kubectl describe deployment colisnc
-```
+`kubectl describe deployment colisnc`{{execute}}
