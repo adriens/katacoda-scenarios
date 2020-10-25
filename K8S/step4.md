@@ -6,12 +6,12 @@ Finally call it:
 
 Then call it nicely:
 
-`sudo apt-get install httpie jq boxes toilet`{{execute}}
+`sudo apt-get -y install httpie jq boxes toilet`{{execute}}
 
 ```
 cat << EOF > colis.sh
 #!/bin/bash          
-curl -sS http://localhost:8080/colis/\$1/latest | jq -r '.status' | boxes -d boy | toilet --gay -f term
+curl -sS http://$(minikube ip):$NODE_PORT/colis/\$1/latest | jq -r '.status' | boxes -d boy | toilet --gay -f term
 EOF
 chmod u+x colis.sh
 ```{{execute}}
