@@ -2,16 +2,13 @@
 
 ## Install nice curl client
 
-```
-sudo apt-get instakll httpie
-```
+`sudo apt-get instakll httpie`{{execute}}
+
+
+
 
 ## Minikube setup
 
-```
-minikube start --wait=false
-```
+`minikube start --wait=false`{{execute}}
 
-```
-kubectl get nodes
-```
+`kubectl get nodes`{{execute}}
