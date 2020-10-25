@@ -2,7 +2,7 @@
 
 ## Install nice curl client
 
-`sudo apt-get instakll httpie`{{execute}}
+`sudo apt-get install httpie`{{execute}}
 
 
 
