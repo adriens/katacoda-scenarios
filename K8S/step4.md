@@ -2,7 +2,7 @@
 
 Finally call it:
 
-`http $(minikube ip):$NODE_PORT/colis/CA107308006SI/latest`{{execute}}
+`http $(minikube ip):$NODE_PORT/colis/8Z00136833343/latest`{{execute}}
 
 Then call it nicely:
 
