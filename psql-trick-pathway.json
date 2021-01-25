@@ -1,5 +1,11 @@
 {
   "title": "Postgres Tricks",
   "description": "Tricks and techniques around PostgreSQL",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "purge-partitions",
+      "title": "Efficiently purge and query huge tables thanks to partitioning",
+      "description": "Create and manage tables thanks to partitioning techniques. Compare executions plans, purge data...."
+    }
+  ]
 }
