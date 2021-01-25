@@ -1,4 +1,4 @@
-# Postres install
+# Postgres install
 
 To make this tutorial playable anywhere (and play with PostgreSQL versions), we'll use
 docker.
@@ -17,9 +17,9 @@ sudo systemctl enable docker
 docker --version
 ```{{execute}}
 
-Then locally install postgreSQL client :
+Then locally install PostgreSQL client :
 
-`sudo apt-get install postgresql-client`{{execute}}
+`sudo apt-get -y install postgresql-client`{{execute}}
 
 Next, pull and boot PostgreSQL:
 
