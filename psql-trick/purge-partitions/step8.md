@@ -10,8 +10,10 @@ Job done but:
 
 We want to drop the data faster and not in a transactional way, without locking
 the parent table.
-Be aware that vacuum full is very efficient but comes at a cost : we'd like to
-get the same performances...without the cost.
+
+Be aware that vacuum full is very efficient but comes at a cost.
+
+We want to get the same performances...without the cost.
 
 With partitionned tables it's very easy :
 
@@ -36,7 +38,7 @@ For example, rename it :
 alter table logs_2020_12 rename to arch_logs_2020_12;
 ```{{execute}}
 
-Let's take a look at the vacuum process:
+Let's take a closer look at the vacuum process:
 
 ```
 vacuum full verbose analyse logs;

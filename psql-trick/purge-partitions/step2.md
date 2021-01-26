@@ -31,7 +31,7 @@ CREATE TABLE logs_dumb (
 \dt
 ```{{execute}}
 
-See : they look the same.
+See ? They look the same.
 
 Now let's deal with partitioning, we'll work on a month based strategy, based on the `log_date` column.
 
@@ -49,7 +49,7 @@ And again, list all tables:
 
 `\dt`{{execute}}
 
-Do you see the partition appear as a tables ?
+Do you see the partition appear as a table ?
 
 Now, let's put some data in it :
 

@@ -1,6 +1,6 @@
 # Put datas
 
-Now, let's make things a bit more interesting by putting data:
+Let's make things a bit more interesting by putting data:
 
 
 ```
@@ -31,7 +31,7 @@ select * from logs;
 ```{{execute}}
 
 
-Now we have exactly the same amount of data on the two tables.
+Now we have exactly the same amount of rows on the two tables.
 
 Let's take a look at how we filled our tables, from metadatas :
 

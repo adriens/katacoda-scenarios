@@ -1,6 +1,8 @@
 # Delete operations and bloat
 
-Now, let's perform some dummy purge action: let's remove October rows with a "dumb" delete
+Now, let's perform some dummy purge action.
+
+Let's remove October rows with a "dumb" delete
 
 Do the delete the DUMB way (be patient of course), less than 7 seconds on my laptop.
 
@@ -53,8 +55,3 @@ if `vacuum` is played again, getting that kind of message for each table/partiti
 
 This is the target situation : get as less `removable` as possible, if possible
 without having to deal with `vacuum full`.
-
-
-```
-
-```{{execute}}

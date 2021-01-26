@@ -13,12 +13,8 @@ See, it automatically fetched the right partition:
 
 ```
                                 QUERY PLAN
----------------------------------------------------------------------------
- Seq Scan on logs_2020_12 logs  (cost=0.00..23.00 rows=5 width=50)
-   Filter: (log_date = '2020-12-20 00:00:00'::timestamp without time zone)
+-----------------------------------------------------------------
+Seq Scan on logs_2020_12 logs  (cost=0.00..23.00 rows=5 width=50)
+  Filter: (log_date = '2020-12-20 00:00:00'::timestamp without time zone)
 (2 rows)
-```
-
-Let's create some more partitions now. Let's say I want to rotate my logs and alwayw keep
-logs that have been inserted the last month online.... considering we currenlty are in december.
 ```
