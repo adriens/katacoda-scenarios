@@ -12,8 +12,7 @@ explain select * from logs where log_date = '2020-12-20';
 See, it automatically fetched the right partition:
 
 ```
-                                QUERY PLAN
------------------------------------------------------------------
+QUERY PLAN
 Seq Scan on logs_2020_12 logs  (cost=0.00..23.00 rows=5 width=50)
   Filter: (log_date = '2020-12-20 00:00:00'::timestamp without time zone)
 (2 rows)
