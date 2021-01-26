@@ -9,12 +9,16 @@ First, update your system :
 
 Then properly install docker:
 
-```
+```bash
 sudo apt-get remove docker docker-engine docker.io
 sudo apt install docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
-docker --version
+```{{execute}}
+
+Finally, `docker` is installed :
+
+```docker --version
 ```{{execute}}
 
 Then locally install PostgreSQL client :
@@ -32,7 +36,6 @@ Finally connect and create a demo database:
 
 ```
 export PGPASSWORD=docker
-## create a dedicated database for the demo
 psql -h localhost -U postgres -d postgres -c "create database demo"
 psql -h localhost -U postgres demo
 ```{{execute}}

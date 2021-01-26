@@ -1,5 +1,6 @@
 # Intro
 
+
 Very often you have to :
 
 - store large amount of data
@@ -14,5 +15,3 @@ When you do this with classic tables, you will :
 
 In this scenarion, you'll be able to compare different approaches to achieve these goals in a 
 very efficient way, with real data.
-
-

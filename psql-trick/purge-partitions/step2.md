@@ -54,7 +54,7 @@ Do you see the partition appear as a table ?
 Now, let's put some data in it :
 
 
-```
+```sql
 -- insert any day of december 2020
 insert into logs values ('2020-12-22', 'hello', 1);
 -- Target the parent table
