@@ -40,8 +40,10 @@ Let's take a look at how we filled our tables, from statistics.
 Data distribution per month :
 
 ```
-SELECT schemaname,relname,n_live_tup
+SELECT schemaname,
+    relname,
+    n_live_tup
 FROM pg_stat_user_tables
-where relname like 'logs_%'
+    where relname like 'logs_%'
 ORDER BY relname DESC ;
 ```{{execute}}

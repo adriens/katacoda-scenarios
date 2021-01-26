@@ -56,7 +56,8 @@ Now, let's put some data in it :
 Insert any day of december 2020:
 
 ```
-insert into logs values ('2020-12-22', 'hello', 1);
+insert into logs
+    values ('2020-12-22', 'hello', 1);
 ```{{execute}}
 
 
@@ -81,7 +82,8 @@ Now... let's try to put unexpected datas : put rows from 2021:
 let's try to put some 2021 stuff :
 
 ```
-insert into logs values ('2021-01-01', 'hello 2021', 1);
+insert into logs
+    values ('2021-01-01', 'hello 2021', 1);
 ```{{execute}}
 
 See what happens ? Out of bound, works as expected.
