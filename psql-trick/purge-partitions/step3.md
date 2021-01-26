@@ -4,6 +4,10 @@ For now, we did not create a single index. This point is very important as
 in the next lines we'll se, thanks to execution plan, how the optimizer
 works on our two tables... even with a very low amount of rows.
 
+During this course, I'll use the explain command. 
+Please check the [official EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html)
+from PostgreSQL. It's a crucial command, for developers and DBAs.
+
 
 ```
 explain
