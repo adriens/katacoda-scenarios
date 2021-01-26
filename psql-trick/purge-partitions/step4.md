@@ -1,8 +1,8 @@
 # Add partitions
 
-Let's create some more partitions. I want to rotate my logs and alwayw keep
-logs that have been inserted the last month online.... considering we
-currenlty are in december.
+Let's create some more partitions. I want to rotate my logs and always keep
+logs that have been inserted the last month online... considering we
+currently are in december.
 
 
 

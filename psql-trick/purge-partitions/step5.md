@@ -33,7 +33,7 @@ select * from logs;
 
 Now we have exactly the same amount of rows on the two tables.
 
-Let's take a look at how we filled our tables, from metadatas :
+Let's take a look at how we filled our tables, from statistics :
 
 ```
 -- data distribution per month

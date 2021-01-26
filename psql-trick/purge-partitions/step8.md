@@ -22,14 +22,15 @@ For example, this is often a useful time to back up the data using COPY, pg_dump
 It might also be a useful time to aggregate data into smaller formats, perform other
 data manipulations, or run reports.
 
-See how to drop december, 2020 :
+See how to drop december, 2020. 
+
+First, detach the december partition :
 
 ```
--- first, detach the december partition
 alter table logs detach partition logs_2020_12;
 ```{{execute}}
 
-Now logs_2020_12 since is a classic table, not linked to theparent anymore,
+Now logs_2020_12 since is a classic table, not linked to the parent anymore,
 we can perform any management task without impacting the parent `logs` table.
 
 For example, rename it :
@@ -53,7 +54,7 @@ The consequence is that :
 - You can do whatever you want with the detached/archived partition without impacting (eg. locking) your live table
 
 
-Finally then drop it :
+Finally then drop december, 2020 :
 
 ```
 drop table arch_logs_2020_12;

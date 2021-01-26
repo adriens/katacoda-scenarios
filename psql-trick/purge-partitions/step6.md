@@ -1,6 +1,6 @@
-# Partition impact on query plan
+# Partition impact on execution plan
 
-Let's take a quick look and compare explain plan while trying to 
+Let's take a quick look and compare execution plan while trying to 
 select a given month.
 
 On the partitionned table:
