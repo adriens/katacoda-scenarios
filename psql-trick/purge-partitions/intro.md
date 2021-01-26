@@ -1,6 +1,3 @@
-# Intro
-
-
 Very often you have to :
 
 - store large amount of data
