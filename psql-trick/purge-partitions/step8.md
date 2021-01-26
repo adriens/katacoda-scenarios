@@ -65,7 +65,9 @@ drop table arch_logs_2020_12;
 data distribution per month:
 
  ```
-SELECT schemaname,relname,n_live_tup
+SELECT schemaname,
+    relname,
+    n_live_tup
 FROM pg_stat_user_tables
 where relname like '%logs%'
 ORDER BY relname DESC ;

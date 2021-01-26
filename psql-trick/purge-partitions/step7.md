@@ -18,8 +18,10 @@ Delete december 2020 and pay attention to the time required to
 dumb delete December on each table
 
 ```
-delete from logs where to_char (log_date, 'YYYY-MM') = '2020-12';
-delete from logs_dumb where to_char (log_date, 'YYYY-MM') = '2020-12';
+delete from logs
+    where to_char (log_date, 'YYYY-MM') = '2020-12';
+delete from logs_dumb
+    where to_char (log_date, 'YYYY-MM') = '2020-12';
 ```{{execute}}
 
 Now we have a lot of bloat... but centralized in a single table.
@@ -29,9 +31,11 @@ Pay good attention on how easy it is to check that on the partitionned table:
 
 
 ```
-SELECT schemaname,relname,n_live_tup
+SELECT schemaname,
+    relname,
+    n_live_tup
 FROM pg_stat_user_tables
-where relname like 'logs_%'
+    where relname like 'logs_%'
 ORDER BY relname DESC ;
 ```{{execute}}
 
