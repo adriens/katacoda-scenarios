@@ -18,8 +18,7 @@ sudo systemctl enable docker
 
 Finally, `docker` is installed :
 
-```docker --version
-```{{execute}}
+`docker --version`{{execute}}
 
 Then locally install PostgreSQL client :
 
