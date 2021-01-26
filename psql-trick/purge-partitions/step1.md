@@ -9,7 +9,7 @@ First, update your system :
 
 Then properly install docker:
 
-```bash
+```
 sudo apt-get remove docker docker-engine docker.io
 sudo apt install docker.io
 sudo systemctl start docker
