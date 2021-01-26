@@ -6,13 +6,17 @@ select a given month.
 On the partitionned table:
 
 ```
-explain select * from logs where log_date = '2020-12-20';
+explain
+    select * from logs
+    where log_date = '2020-12-20';
 ```{{execute}}
 
 ... then on the classical one:
 
 ```
-explain select * from logs_dumb where log_date = '2020-12-20';
+explain
+    select * from logs_dumb
+    where log_date = '2020-12-20';
 ```{{execute}}
 
 Now take a closer look at the cost.

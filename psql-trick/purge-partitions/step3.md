@@ -6,7 +6,9 @@ works on our two tables... even with a very low amount of rows.
 
 
 ```
-explain select * from logs where log_date = '2020-12-20';
+explain
+select * from logs
+    where log_date = '2020-12-20';
 ```{{execute}}
 
 See, it automatically fetched the right partition:

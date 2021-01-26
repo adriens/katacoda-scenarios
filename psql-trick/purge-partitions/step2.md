@@ -35,11 +35,11 @@ See ? They look the same.
 
 Now let's deal with partitioning, we'll work on a month based strategy, based on the `log_date` column.
 
-Therefore we create partitions that inherit from parent table with constraints
+Therefore we create partitions that inherit from parent table with constraints.
 
+Create December strict partition :
 
 ```
--- Create December strict partition
 CREATE TABLE logs_2020_12 PARTITION OF logs
     FOR VALUES FROM ('2020-12-01') TO ('2021-01-01');
 ```{{execute}}
@@ -53,21 +53,34 @@ Do you see the partition appear as a table ?
 
 Now, let's put some data in it :
 
+Insert any day of december 2020:
 
 ```
--- insert any day of december 2020
 insert into logs values ('2020-12-22', 'hello', 1);
--- Target the parent table
+```{{execute}}
+
+
+Select and target the parent table :
+
+```
 select from logs;
--- Directly target the underlying partition
+```{{execute}}
+
+
+Directly target the underlying partition :
+
+```
 select * from logs_2020_12;
 ```{{execute}}
 
 
+
 Now... let's try to put unexpected datas : put rows from 2021:
 
+
+let's try to put some 2021 stuff :
+
 ```
--- let's try to put some 2021 stuff
 insert into logs values ('2021-01-01', 'hello 2021', 1);
 ```{{execute}}
 

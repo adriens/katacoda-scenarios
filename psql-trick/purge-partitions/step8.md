@@ -62,8 +62,9 @@ drop table arch_logs_2020_12;
 
  And take a look at your tables now :
 
+data distribution per month:
+
  ```
--- data distribution per month
 SELECT schemaname,relname,n_live_tup
 FROM pg_stat_user_tables
 where relname like '%logs%'

@@ -1,6 +1,9 @@
 # Put datas
 
-Let's make things a bit more interesting by putting data:
+Let's make things a bit more interesting by putting data.
+
+With the following boilerplate code, we create rows. No need
+to understand this part.
 
 
 ```
@@ -33,10 +36,10 @@ select * from logs;
 
 Now we have exactly the same amount of rows on the two tables.
 
-Let's take a look at how we filled our tables, from statistics :
+Let's take a look at how we filled our tables, from statistics.
+Data distribution per month :
 
 ```
--- data distribution per month
 SELECT schemaname,relname,n_live_tup
 FROM pg_stat_user_tables
 where relname like 'logs_%'

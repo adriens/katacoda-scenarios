@@ -14,13 +14,15 @@ First, set timing on:
 ```{{execute}}
 
 
+Delete december 2020 and pay attention to the time required to
+dumb delete December on each table
+
 ```
--- delete december 2020
--- Pay attention to the time required to dumb delete December on each table
 delete from logs where to_char (log_date, 'YYYY-MM') = '2020-12';
 delete from logs_dumb where to_char (log_date, 'YYYY-MM') = '2020-12';
--- now we have a lot of bloat... but centralized in a single table
 ```{{execute}}
+
+Now we have a lot of bloat... but centralized in a single table.
 
 Let's check that our target month has properly disappeared.
 Pay good attention on how easy it is to check that on the partitionned table:
@@ -35,8 +37,9 @@ ORDER BY relname DESC ;
 
 next, let's perform vacuum to put bloat away :
 
+Beware that during this period the table is locked
+
 ```
--- beware that during this period the table is locked
 vacuum full verbose analyse logs;
 vacuum full verbose analyse logs_dumb;
 ```{{execute}}
