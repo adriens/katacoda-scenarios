@@ -4,8 +4,8 @@
   "courses": [
     {
       "course_id": "purge-partitions",
-      "title": "Efficiently purge and query huge tables thanks to partitioning",
-      "description": "Create and manage tables thanks to partitioning techniques. Compare executions plans, purge data...."
+      "title": "Efficiently purge & query huge tables thanks to partitioning",
+      "description": "Create and manage tables thanks to partitioning techniques. Compare executions plans, purge data and keep bloat under control ...."
     }
   ]
 }
