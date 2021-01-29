@@ -4,7 +4,7 @@ Previously we could perform our month base purge strategy on our tables.
 
 Job done but:
 
-- The delete action is transactin consuming (it's a transaction)
+- The delete action is transaction consuming (it's a transaction)
 - Generate WALs...
 - We have to run a VACUUM to get space back: we'd rather not to have to do this (let's get lazy)
 
