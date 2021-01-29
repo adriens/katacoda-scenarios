@@ -7,7 +7,7 @@ Very often you have to :
 When you do this with classic tables, you will :
 
 - potentially spend a lot of time to "delete" the data
-- face bloat issues
+- face [bloat](https://dba.stackexchange.com/questions/126258/what-is-table-bloating-in-databases/126286) (and then performance) issues
 - plan `vacuum` operations which can be complex and lock tables... which is not always possible
 
 In this scenarion, you'll be able to compare different approaches to achieve these goals in a 
