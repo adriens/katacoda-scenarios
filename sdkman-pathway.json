@@ -1,0 +1,11 @@
+{
+  "title": "SDKMAN!",
+  "description": "SDKMAN! usage scenarios and usecases to deal around jvm tools",
+  "courses": [
+    {
+      "course_id": "java",
+      "title": "Install SDKMAN! and set up a complete Java developement environment",
+      "description": "Install SDKMAN! and set up a complete Java developement environment."
+    }
+  ]
+}
