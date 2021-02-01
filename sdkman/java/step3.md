@@ -5,7 +5,7 @@ Let's say we want to use Java 8 from Java.net.
 First, pick the Java distriubution you want:
 
 ```
-sdk list java
+sdk list java | more
 ```{{execute}}
 
 For example install `java 8.0.282-open`:

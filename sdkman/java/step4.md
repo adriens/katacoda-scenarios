@@ -28,9 +28,8 @@ sdk current java
 
 And check that it does not affect other sessions by opening a new one :
 
-```
-sdk current java
-```{{execute T2}}
+`sdk current java`{{execute T2}}
+
 
 Check the differences by yourself.
 
