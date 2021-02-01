@@ -26,7 +26,7 @@ sdk use java 8.0.282-open
 sdk current java
 ```{{execute}}
 
-And check that it does not affect other sessions by opening a new one :
+And check that it does not affect other sessions by opening a new terminal :
 
 `sdk current java`{{execute T2}}
 
@@ -34,6 +34,8 @@ And check that it does not affect other sessions by opening a new one :
 Check the differences by yourself.
 
 # Permanently switch version
+
+If you want to share this java version with all your sessions, then :
 
 ```
 sdk default java 8.0.282-open
@@ -44,7 +46,7 @@ Open a new terminal and check the Java environment :
 
 ```
 sdk current java
-```{{execute T2}}
+```{{execute T3}}
 
 
 # Remove version
@@ -53,7 +55,7 @@ To unistall a Java environment, just pick your `Identifier` (`11.0.10.hs-adpt` i
 
  ```
  sdk uninstall java 11.0.10.hs-adpt
- ```
+ ```{{execute}}
 
 # Global SDKMAN! environemnt
 

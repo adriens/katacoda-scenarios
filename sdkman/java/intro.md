@@ -9,3 +9,9 @@ it was inspired by the very useful [RVM](https://rvm.io/) and
 [rbenv](https://github.com/rbenv/rbenv) tools, used at large by the
 [Ruby](https://www.ruby-lang.org/en/) community.
 
+With this course, you'll be able to :
+
+- Install Java SDK
+- Manage and switch java runtimes
+- Install & manage developer build tools
+- Manage `SDKMAN` itself
