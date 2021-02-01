@@ -48,10 +48,19 @@ sdk current java
 ```{{execute T2}}
 
 
- # Remove version
+# Remove version
 
 To unistall a Java environment, just pick your `Identifier` (`11.0.10.hs-adpt` in my case) and :
 
  ```
  sdk uninstall java 11.0.10.hs-adpt
  ```
+
+# Global SDKMAN! environemnt
+
+ You can install a lot of jvm related software with `SDKMAN!`. To get a status,
+ simply :
+
+ ```
+ sdk current
+ ```{{execute}}
