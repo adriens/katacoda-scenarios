@@ -30,7 +30,7 @@ And check that it does not affect other sessions by opening a new one :
 
 ```
 sdk current java
-```{{T1}}
+```{{execute T2}}
 
 Check the differences by yourself.
 
