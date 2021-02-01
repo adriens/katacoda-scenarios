@@ -4,7 +4,7 @@ Now you have a lot of Java runtimes. Check them :
 
 
 ```
-sdk list java
+sdk list java | more
 ```{{execute}}
 
 
@@ -30,7 +30,7 @@ And check that it does not affect other sessions by opening a new one :
 
 ```
 sdk current java
-```{{execute T1}}
+```{{T1}}
 
 Check the differences by yourself.
 

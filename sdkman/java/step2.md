@@ -20,10 +20,10 @@ java -version
 
 **NB : you don't have to deal with Java alternatives, `SDKMAN!` does all the work for you.**
 
-Now, check the Java Runtime you just installed from `SDKMAN!`:
+Now, browse the Java Runtime you just installed from `SDKMAN!`:
 
 ```
-sdk list java
+sdk list java | more
 ```{{execute}}
 
 Check the output with care, especially the `Status` column :
