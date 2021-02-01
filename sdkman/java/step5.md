@@ -20,7 +20,7 @@ Install [Gradle](https://gradle.org/) :
 sdk install gradle
 ```{{execute}}
 
-Finally check our overall environment :
+Finally check our overall (Java and build tools) environment :
 
 ```
 sdk current

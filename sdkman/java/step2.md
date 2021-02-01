@@ -26,20 +26,7 @@ Now, browse the Java Runtime you just installed from `SDKMAN!`:
 sdk list java | more
 ```{{execute}}
 
-Check the output with care, especially the `Status` column :
-
-```
-================================================================================
-Available Java Versions
-================================================================================
- Vendor        | Use | Version      | Dist    | Status     | Identifier
---------------------------------------------------------------------------------
- AdoptOpenJDK  |     | 15.0.2.j9    | adpt    |            | 15.0.2.j9-adpt
-               |     | 15.0.2.hs    | adpt    |            | 15.0.2.hs-adpt
-               |     | 11.0.10.j9   | adpt    |            | 11.0.10.j9-adpt
-               | >>> | 11.0.10.hs   | adpt    | installed  | 11.0.10.hs-adpt
-               |     | 11.0.9.open  | adpt    |            | 11.0.9.open-adpt
-```
+Check the output with care, especially the `Status` column.
 
 See, by default, we :
 

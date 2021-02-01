@@ -31,7 +31,7 @@ And check that it does not affect other sessions by opening a new terminal :
 `sdk current java`{{execute T2}}
 
 
-Check the differences by yourself.
+Check the differences between the two sessions by yourself.
 
 # Permanently switch version
 
@@ -39,8 +39,8 @@ If you want to share this java version with all your sessions, then :
 
 ```
 sdk default java 8.0.282-open
- sdk current java
- ```{{execute}}
+sdk current java
+```{{execute}}
 
 Open a new terminal and check the Java environment :
 

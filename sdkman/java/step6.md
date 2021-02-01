@@ -2,7 +2,8 @@
 
 # Upgrade Java, Kotlin, maven
 
-To see what is currently out of date for a Candidate on your system: 
+To see what is currently out of date for a Candidate on your system and
+let SDKMAN! help you manage your system by answering it interactive questions :
 
 ```
 sdk upgrade
@@ -32,3 +33,5 @@ Periodically SDKMAN! requires a refresh to become aware of new (or removed) cand
 ```
 sdk update
 ```{{execute}}
+
+You are now able to manage the tool that manages your Java environment.

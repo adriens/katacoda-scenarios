@@ -45,7 +45,8 @@ sdk install java 11.0.10-open
 
 Test your java environment now (you have switched to `11.0.10-open`).
 
-Since now, let's use dedicated `sdk` commands to manage our environment:
+Since now, let's use dedicated `sdk` commands to manage our environment.
+Take a look at what we are currently using :
 
 ```
 sdk current
