@@ -1,4 +1,4 @@
-![Oh My Zsh!](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Oh My Zsh!")
+![Oh My Zsh!](https://camo.githubusercontent.com/3ec75cb1c3278cce3c661d3bcf72a4eca75db241a6ace648ea014b02f3f44458/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6f686d797a73682f6f682d6d792d7a73682d6c6f676f2e706e67 "Oh My Zsh!")
 
 
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/) configuration.
