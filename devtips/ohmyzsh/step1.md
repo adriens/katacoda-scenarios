@@ -6,7 +6,7 @@ First install some prerequisites :
 sudo apt-get install -y curl git zsh fonts-powerline
 ```{{execute}}
 
-Test `zsh` version :
+Test `zsh` version (v4.3.9 or more recent is fine but we prefer 5.0.8 and newer) :
 
 `zsh --version`{{execute}}
 

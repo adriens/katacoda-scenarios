@@ -15,25 +15,26 @@ git status
 Now take a closer look at your customized prompt.
 
 All the current themes can be found in the `themes/` directory in the oh-my-zsh
-distribution. See list [here](https://github.com/ohmyzsh/ohmyzsh/tree/master/themes).
+distribution. See [themes list](https://github.com/ohmyzsh/ohmyzsh/tree/master/themes).
 You can have a preview on themes by taking a look at
-screenshots [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+ [screenshots](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
 
 Find all available themes [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes).
 
-Now, let's select a Theme
+Now, let's select one by ourselves.
 
-*Robby's theme is the default one. It's not the fanciest one. It's not the simplest one. 
+*[Robby's theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell) is the default
+one. It's not the fanciest one. It's not the simplest one. 
 It's just the right one (for him).*
 
-Pick a theme :
+Browse available themes from the terminal :
 
 ```
 ls  ~/.oh-my-zsh/themes | less
 ```{{execute}}
 
-Let's choose `agnoster`.
+Let's pick `agnoster`{{copy}}
 
 Therefore, you will need to edit the `~/.zshrc` file. You'll see an environment
 variable (all caps) in there that looks like:
@@ -50,7 +51,7 @@ ZSH_THEME="agnoster" # (this is one of the fancy ones)
 
 Now, do the job, update the file:
 
-~/.zshrc{{open}}
+`~/.zshrc`{{open}}
 
 And you're done : the [agnoster](https://github.com/agnoster/agnoster-zsh-theme) theme is installed.
 
