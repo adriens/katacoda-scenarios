@@ -14,5 +14,4 @@ Finally, you'll begin to get the sort of attention that you have always felt you
 With this course, you'll learn how to install, customize and use this amazing tutorial, how to get beautiful terminals like [these](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) :
 
 
-
 ![agnoster theme screenshot](https://user-images.githubusercontent.com/1816101/62960553-295e5600-bdfb-11e9-86f3-8cdfe5bbe947.jpg "agnoster theme screenshot")

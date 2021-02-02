@@ -1,0 +1,11 @@
+{
+  "title": "Developers Tips & Tricks",
+  "description": "A set of tools and howtos to make developer's everyday life more productive",
+  "courses": [
+    {
+      "course_id": "ohmyzsh",
+      "title": "Unleash your terminal with \"Oh My ZSH!\"",
+      "description": "Install, customize and use \"Oh My ZSH!\""
+    }
+  ]
+}
