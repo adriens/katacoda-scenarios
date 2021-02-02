@@ -1,7 +1,7 @@
 ---
 name: New Course creation request
 about: Ask for a new course
-title: New Course creataion request
+title: 'New Course creation request > '
 labels: documentation, enhancement
 assignees: adriens
 
