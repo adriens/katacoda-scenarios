@@ -1,5 +1,3 @@
-# Cheatsheet - Directory browsing
-
 Play around with `Tab` after the following commands and enjoy some of its large collection:
 
 - `..`{{execute}} : `cd ..`

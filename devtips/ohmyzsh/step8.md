@@ -1,5 +1,3 @@
-# Community resources
-
 The community around `Oh My Zsh!` is pretty wide and very active :
 
 

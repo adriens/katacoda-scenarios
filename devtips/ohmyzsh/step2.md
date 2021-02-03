@@ -1,5 +1,3 @@
-# Themes
-
 The first thing you see is the terminal look & feel. This is what we call the *Themes*.
 There are a [lot](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)... and of course you
 can create your own.

@@ -1,5 +1,3 @@
-# Cheatsheet - Commands
-
 `Oh My Zsh!` comes with a fine tuned set of commands and alias
 
 Take a look at the [reference Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet).

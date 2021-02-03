@@ -1,5 +1,3 @@
-# Install and use plugins
-
 Oh My Zsh comes bundled with [plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins), which allow
  you to take advantage of functionality of many sorts to your shell just by enabling them.
 

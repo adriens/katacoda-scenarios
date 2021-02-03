@@ -1,5 +1,3 @@
-# Install
-
 First install some prerequisites :
 
 ```

@@ -1,5 +1,3 @@
-# Cheatsheet - Tab-completion
-
 `Oh My Zsh!` is awesome in Tab-completion, play with it.
 
 Play around with `Tab` after the following commands and enjoy:
