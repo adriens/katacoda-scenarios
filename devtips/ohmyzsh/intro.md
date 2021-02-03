@@ -1,6 +1,9 @@
 ![Oh My Zsh!](https://camo.githubusercontent.com/3ec75cb1c3278cce3c661d3bcf72a4eca75db241a6ace648ea014b02f3f44458/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6f686d797a73682f6f682d6d792d7a73682d6c6f676f2e706e67 "Oh My Zsh!")
 
 
+[![Follow @ohmyzsh](https://img.shields.io/twitter/follow/ohmyzsh?label=Follow+@ohmyzsh&style=flat)](https://twitter.com/intent/follow?screen_name=ohmyzsh)
+[![Discord server](https://img.shields.io/discord/642496866407284746)](https://discord.gg/ohmyzsh)
+
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/) configuration.
 
 Sounds boring. Let's try again.

@@ -55,11 +55,13 @@ Now, do the job, update the file:
 
 And you're done : the [agnoster](https://github.com/agnoster/agnoster-zsh-theme) theme is installed.
 
-Open up a new terminal window and your prompt should look something like this:
-
-![agnoster theme screenshot](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png "agnoster theme screenshot")
+Open up a new terminal :
 
 ```
 cd ~/.oh-my-zsh
 git status
 ```{{execute T2}}
+
+and your prompt should look something like this:
+
+![agnoster theme screenshot](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png "agnoster theme screenshot")
