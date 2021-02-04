@@ -12,3 +12,8 @@ When you do this with classic tables, you will :
 
 In this scenario, you'll be able to compare different approaches to achieve these goals in a 
 very efficient way, with real data.
+
+**bloat definition** : Once there is no dependency on those dead tuples with the already
+running transactions, the dead tuples are no longer needed. Thus, PostgreSQL runs VACUUM on
+ such Tables. ...
+ The space occupied by these dead tuples may be referred to as Bloat
