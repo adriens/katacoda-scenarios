@@ -1,5 +1,3 @@
-# Prérequis
-
 D'abbord quelques outils pratiques pour consommer l'API :
 
 ```

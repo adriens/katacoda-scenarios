@@ -1,5 +1,3 @@
-# Chercher un ridet
-
 Récupérer les détails de l'entreprise dont le ridet est `0426049` :
 
 ```

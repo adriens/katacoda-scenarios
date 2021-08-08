@@ -1,5 +1,3 @@
-# Installer l'API
-
 Télécharger et exécuter l'[API Ridetnc](https://github.com/adriens/ridetnc-api) :
 
 ```
@@ -11,3 +9,4 @@ Vérifier que l'API tourne :
 ```
 sudo docker ps
 ```{{execute}}
+

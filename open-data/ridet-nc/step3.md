@@ -1,5 +1,3 @@
-# Appeler l'API
-
 Maintenant que l'API tourne, on peut l'appeler.
 
 Principalement deux cas d'utilisation : 

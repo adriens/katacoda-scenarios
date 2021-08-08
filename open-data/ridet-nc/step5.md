@@ -1,5 +1,3 @@
-# Faire une recherche
-
 Cette fois-ci, on cherche, via un mot-clé (`042604`) et on veut récupérer une collection d'entreprises candidates :
 
 ```
