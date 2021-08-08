@@ -1,0 +1,11 @@
+{
+  "title": "Open Data",
+  "description": "Open Data experimentations",
+  "courses": [
+    {
+      "course_id": "ridet-nc",
+      "title": "Get Ridets with Open Data",
+      "description": "Get Ridets with Open Data"
+    }
+  ]
+}

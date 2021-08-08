@@ -1,0 +1,46 @@
+{
+  "title": "Get Ridets with Open Data",
+  "description": "Get Ridets with Open Data",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Prérequis",
+        "text": "step1.md"
+      },
+      {
+        "title": "Démarrer l'API",
+        "text": "step2.md"
+      },
+      {
+        "title": "Appeler l'API",
+        "text": "step3.md"
+      },
+      {
+        "title": "Chercher via un ridet",
+        "text": "step4.md"
+      },
+      {
+        "title": "Faire une recherche",
+        "text": "step5.md"
+      },
+      {
+        "title": "Ressources",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
