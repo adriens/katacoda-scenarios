@@ -3,7 +3,7 @@
 First, install the minimal prerequisites:
 
 ```
-sudo apt-get install -y unzip zip
+sudo apt-get install -y unzip zip curl
 ```{{execute}}
 
 **NB : That's all you need as `root` privileges.**
