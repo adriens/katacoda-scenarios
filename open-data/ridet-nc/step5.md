@@ -13,7 +13,6 @@ http :8080/ridets q==sports page==1
 Formatons en csv pour rendre les choses plus lisibles :
 
 ```
-export vers csv :
 http :8080/ridets q==sports page==1 |
 jq -r '["rid7","denomination", "libelleCommune","codeApe"], (.[] |
 [.rid7,.denomination,.libelleCommune,.codeApe]) |
