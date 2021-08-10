@@ -10,7 +10,30 @@ Voyons ce qui se passe avec plus de hits :
 http :8080/ridets q==sports page==1
 ```{{execute}}
 
-... jusqu'à tomber sur une page vide :
+Formatons en csv pour rendre les choses plus lisibles :
+
+```
+export vers csv :
+http :8080/ridets q==sports page==1 |
+jq -r '["rid7","denomination", "libelleCommune","codeApe"], (.[] |
+[.rid7,.denomination,.libelleCommune,.codeApe]) |
+@csv'
+```{{execute}}
+
+Formatons en tableau scrollable :
+
+```
+export vers csv :
+http :8080/ridets q==sports page==1 |
+jq -r '["rid7","denomination", "libelleCommune","codeApe"], (.[] |
+[.rid7,.denomination,.libelleCommune,.codeApe]) |
+@csv' |
+column -t -n -s, |
+less -S
+```{{execute}}
+
+
+Cherchons la dernière page : il suffit de tomber sur une page vide :
 
 
 ```
