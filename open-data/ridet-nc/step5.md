@@ -30,9 +30,18 @@ column -t -n -s, |
 less -S
 ```{{execute}}
 
+Une petite touche de couleurs :
+
+```
+http :8080/ridets q==sports page==1 |
+jq -r '["rid7","denomination", "libelleCommune","codeApe"], (.[] |
+[.rid7,.denomination,.libelleCommune,.codeApe]) |
+@csv' |
+column -t -n -s, |
+lolcat
+```{{execute}}
 
 Cherchons la dernière page : il suffit de tomber sur une page vide :
-
 
 ```
 http :8080/ridets q==sports page==100
