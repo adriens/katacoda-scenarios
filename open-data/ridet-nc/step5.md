@@ -22,7 +22,6 @@ jq -r '["rid7","denomination", "libelleCommune","codeApe"], (.[] |
 Formatons en tableau scrollable :
 
 ```
-export vers csv :
 http :8080/ridets q==sports page==1 |
 jq -r '["rid7","denomination", "libelleCommune","codeApe"], (.[] |
 [.rid7,.denomination,.libelleCommune,.codeApe]) |
